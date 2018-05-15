@@ -32,7 +32,7 @@ $ yarn
 ## Run
 
 ```bash
-$ npm run dev
+$ yarn start
 ```
 
 Please open http://localhost:1234
@@ -41,7 +41,7 @@ Please open http://localhost:1234
 ## Build
 
 ```bash
-$ npm run build
+$ yarn build
 ```
 
 Building to `release` directry.
