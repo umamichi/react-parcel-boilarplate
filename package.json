@@ -1,0 +1,32 @@
+{
+  "name": "react-parcel-boilarplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel app/index.html --open",
+    "build": "rm -rf release && parcel build app/index.html --out-dir release --public-url ./"
+  },
+  "repository": "",
+  "author": "Masataka Umamichi <masaumamichi@live.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^8.1.0",
+    "babel-preset-react-app": "^3.1.1",
+    "eslint": "^4.19.1",
+    "postcss-modules": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-compat": "^2.2.0",
+    "eslint-plugin-flowtype": "^2.46.3",
+    "eslint-plugin-flowtype-errors": "^3.5.1",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-react": "^7.8.2"
+  }
+}
