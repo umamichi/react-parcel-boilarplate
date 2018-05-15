@@ -1,7 +1,7 @@
 # react-parcel-boilarplate
 This is mock app
 
-![react-parcel-boilarplate](/logo.jpg)
+![react-parcel-boilarplate](/logo.png)
 
 ## Install
 
