@@ -1,0 +1,15 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, p {
+  margin: 0;
+}
+
+// example
+body {
+  background-color: #CCC;
+}
+a {
+  color: blue;
+}
