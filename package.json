@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "parcel app/index.html --open",
-    "build": "rm -rf release && parcel build app/index.html --out-dir release --public-url ./"
+    "start": "parcel app/pug/*.pug --open",
+    "build": "rm -rf release && parcel build app/pug/*.pug --out-dir release --public-url ./"
   },
   "repository": "",
   "author": "Masataka Umamichi <masaumamichi@live.jp>",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^8.1.0",
+    "autoprefixer": "^8.5.1",
     "babel-preset-react-app": "^3.1.1",
     "eslint": "^4.19.1",
     "postcss-modules": "^1.1.0",
@@ -27,6 +27,7 @@
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-react": "^7.8.2"
+    "eslint-plugin-react": "^7.8.2",
+    "pug": "^2.0.3"
   }
 }
