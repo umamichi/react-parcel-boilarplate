@@ -5,7 +5,7 @@ This is mock app
 
 ## Install
 
-* **Note: requires a node version >= 8.10.0 and an npm version >= 5.6.0
+**Note: requires a node version >= 8.10.0 and an npm version >= 5.6.0** 
 
 ### Install yarn
 
